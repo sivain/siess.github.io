@@ -1,0 +1,119 @@
+body{
+	margin: 0;
+}
+section#main{
+	position: relative;
+	background: url(../img/fon.jpg) no-repeat;
+	background-size: 100%;
+	height: 980px;
+}
+.logo{
+	margin:50px 30px 0 0;
+	/*background: url(../img/logo2.png) no-repeat;*/
+	background-size: 100%;
+	height:290px;
+}
+.logo-text{
+	font-family: menu-shrift;
+	color:white;
+	font-size: 18px;
+	margin-left: 105px;
+	text-transform: uppercase;
+}
+.logo-text p{
+	margin-left: 105px;
+}
+.center-img{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -430px ;
+	margin-left: -350px;
+}
+/*ТОП МЕНЮ*/
+@font-face{
+	font-family: menu-shrift;
+	src: url(../Fonts/pfdintextcondpro-regular.ttf);
+}
+
+@font-face{
+	font-family: textpro-medium;
+	src: url(../Fonts/pfdintextpro-medium.ttf);
+}
+@font-face{
+	font-family: textpro-light;
+	src: url(../Fonts/pfdintextpro-light (1).ttf);
+}
+.menu{
+	display: inline-block;
+	margin-top: 35px;
+	padding-left:40px;
+}
+.top-menu li{
+	margin: 0 auto;
+	display: inline-block;
+	list-style-type:none;
+}
+.top-menu a{
+	text-decoration: none;
+	font-size: 18px;
+	color:white;
+	margin-left: 40px;
+	font-family: menu-shrift;
+}
+.top-menu a:hover{color:#c58e4b;}
+/*_______________________________________*/
+/*Кнопки соц сетей*/
+.socialss{
+	margin-top: 132px;
+	margin-left: 305px !important;
+}
+.socialss-item{
+	list-style-type:none;
+}
+.socials-link{
+	display: inline-block;
+	height: 38px;
+	width: 38px;
+	background: url(../img/sprite.png)
+}
+.socials-link1{background-position: -1px 0}
+.socials-link2{background-position: -44px 0}
+.socials-link3{background-position: -87px 0}
+.socials-link4{background-position: -130px 0}
+.socials-link5{background-position: -173px 0}
+.socials-link6{background-position: -216px 0}
+.socials-link1:hover{background-position: -1px -40px}
+.socials-link2:hover{background-position: -44px -40px}
+.socials-link3:hover{background-position: -87px -40px}
+.socials-link4:hover{background-position: -130px -40px}
+.socials-link5:hover{background-position: -173px -40px}
+.socials-link6:hover{background-position: -216px -40px}
+.tel{
+	color:white;
+	margin-left:40px;
+	font-size: 20px;
+	font-family: menu-shrift;
+}
+.tel p{
+	margin-left: 40px;
+	font-family: textpro-medium;
+	font-size: 35px;
+}
+/*Список режимов*/
+.spisok{
+	color: white;
+	font-family: textpro-light;
+}
+.spisok span{
+	display: block;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	background: #d02523;
+}
+.spisok li{
+	list-style-type:none;
+	padding-left: 55px;
+	font-size: 18px;
+}
